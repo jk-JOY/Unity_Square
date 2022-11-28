@@ -2128,26 +2128,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!1 &1839226266 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 162733989092809825, guid: 1911ed1af77f84d48ba392f23ba4aa3e,
-    type: 3}
-  m_PrefabInstance: {fileID: 162733987291333115}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1839226267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839226266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46cd04a5feaaca146a1b61c994a9039c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1405187186}
-  gameEnding: {fileID: 1188315095}
 --- !u!199 &78153555532129736
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6886,6 +6866,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1144971651}
     m_Modifications:
+    - target: {fileID: 1839226267, guid: 1911ed1af77f84d48ba392f23ba4aa3e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1405187186}
+    - target: {fileID: 1839226267, guid: 1911ed1af77f84d48ba392f23ba4aa3e, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1188315095}
     - target: {fileID: 162733988351924949, guid: 1911ed1af77f84d48ba392f23ba4aa3e,
         type: 3}
       propertyPath: m_Name
@@ -6945,6 +6933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162733989092809831, guid: 1911ed1af77f84d48ba392f23ba4aa3e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1911ed1af77f84d48ba392f23ba4aa3e, type: 3}
